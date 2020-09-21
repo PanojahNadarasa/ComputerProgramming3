@@ -3,7 +3,7 @@ public class CscExamples
  int questionNo;
  String category;
  String text;
-<<<<<<< HEAD
+
   public int getQuestionNo()
  {
    return questionNo;
@@ -34,7 +34,7 @@ public class CscExamples
    text=c;
  }
 
-=======
+
  public void addQuestion(CscExamples qu)
  {
    setQuestionNo(qu.getQuestionNo());
@@ -50,6 +50,4 @@ public class CscExamples
  public void editQuestion(int quId)
  {
 
- }
->>>>>>> csc
 }
